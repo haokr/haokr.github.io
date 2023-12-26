@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://haokr.github.io", 
+  website: "https://haokr.github.io",
   author: "hk",
   desc: "你将成为你所想的",
   title: "鹿上博客",
@@ -11,15 +11,15 @@ export const SITE: Site = {
 };
 
 export const LOCALE = {
-  lang: "en", 
+  lang: "en",
   langTag: [],
 } as const;
 
 export const LOGO_IMAGE = {
   enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
+  svg: false,
+  width: 40,
+  height: 40,
 };
 
 export const SOCIALS: SocialObjects = [
@@ -28,5 +28,5 @@ export const SOCIALS: SocialObjects = [
     href: "https://github.com",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
-  }
+  },
 ];
