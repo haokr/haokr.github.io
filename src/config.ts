@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "http://localhost", 
+  website: "https://haokr.github.io", 
   author: "hk",
   desc: "你将成为你所想的",
   title: "鹿上博客",
